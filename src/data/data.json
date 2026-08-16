@@ -1,0 +1,76 @@
+{
+    "Lombardia": {
+        "1": {
+            "nome": "Milano",
+            "abitanti": "3.256.000",
+            "regione": "Lombardia",
+            "descrizione": "Milano è un delle principali cità d'Italia. È situata nel cuore della lombardia, al suo interno vi sono famosi edifici storici come il Duomo di Milano oppure il castello Sforzesco, ma vi sono anche importanti costruzioni moderne come le tre torri"
+        },
+        "2": {
+            "nome": "Bergamo",
+            "abitanti": "1.111.228",
+            "regione": "Lombardia",
+            "descrizione": "Bergamo è celebre per la sua conformazione unica, divisa tra la pittoresca Città Alta, circondata da mura venete patrimonio UNESCO, e la moderna Città Bassa. È un polo industriale e culturale di grande rilievo."
+        },
+        "3": {
+            "nome": "Brescia",
+            "abitanti": "1.262.271",
+            "regione": "Lombardia",
+            "descrizione": "Soprannominata la 'Leonessa d'Italia', Brescia vanta un patrimonio storico eccezionale che spazia dalle rovine romane del Capitolium ai complessi monastici longobardi. È anche una delle province più industrializzate del Paese."
+        },
+        "4": {
+            "nome": "Como",
+            "abitanti": "594.671",
+            "regione": "Lombardia",
+            "descrizione": "Famosa in tutto il mondo per il suo magnifico lago a forma di Y rovesciata. Il territorio è costellato di lussuose ville storiche, giardini rigogliosi e pittoreschi borghi incastonati tra le montagne e l'acqua."
+        },
+        "5": {
+            "nome": "Cremona",
+            "abitanti": "351.654",
+            "regione": "Lombardia",
+            "descrizione": "Capitale mondiale della liuteria e patria di Stradivari, Cremona è un gioiello della Pianura Padana. È altrettanto rinomata per la sua eccellente tradizione gastronomica, in particolare per il torrone e la mostarda."
+        },
+        "6": {
+            "nome": "Lecco",
+            "abitanti": "332.593",
+            "regione": "Lombardia",
+            "descrizione": "Situata sul ramo orientale del Lago di Como, Lecco è universalmente nota per essere l'ambientazione principale del romanzo 'I Promessi Sposi'. Offre paesaggi mozzafiato dove le montagne scendono a picco sul lago."
+        },
+        "7": {
+            "nome": "Lodi",
+            "abitanti": "227.327",
+            "regione": "Lombardia",
+            "descrizione": "Fondata da Federico Barbarossa, Lodi è immersa nella verdeggiante Pianura Padana. È un territorio a forte vocazione agricola e casearia, famoso per la produzione di ceramiche artistiche e formaggi tipici."
+        },
+        "8": {
+            "nome": "Mantova",
+            "abitanti": "403.665",
+            "regione": "Lombardia",
+            "descrizione": "Circondata dai laghi creati dal fiume Mincio, Mantova è uno dei massimi tesori del Rinascimento italiano. Sotto la signoria dei Gonzaga, la città si è arricchita di capolavori architettonici come il Palazzo Ducale."
+        },
+        "9": {
+            "nome": "Monza e Brianza",
+            "abitanti": "870.112",
+            "regione": "Lombardia",
+            "descrizione": "Cuore produttivo e dinamico della regione, la provincia è internazionalmente nota per l'Autodromo Nazionale dove si corre il Gran Premio di Formula 1, e per la magnifica Villa Reale con il suo immenso parco recintato."
+        },
+        "10": {
+            "nome": "Pavia",
+            "abitanti": "534.691",
+            "regione": "Lombardia",
+            "descrizione": "Antica capitale del Regno Longobardo, Pavia vanta una delle università più antiche e prestigiose d'Europa. Il suo territorio comprende anche l'Oltrepò Pavese, zona collinare celebre per gli eccellenti vigneti."
+        },
+        "11": {
+            "nome": "Sondrio",
+            "abitanti": "178.948",
+            "regione": "Lombardia",
+            "descrizione": "Estesa interamente nel territorio montuoso della Valtellina e Valchiavenna, è una provincia alpina di rara bellezza. È celebre per le stazioni sciistiche, i terrazzamenti vinicoli e specialità come i pizzoccheri e la bresaola."
+        },
+        "12": {
+            "nome": "Varese",
+            "abitanti": "877.668",
+            "regione": "Lombardia",
+            "descrizione": "Conosciuta come la 'Città Giardino' per la ricchezza di parchi e ville signorili. È un territorio caratterizzato dalla presenza di numerosi laghi, colline verdi e un importante patrimonio in stile Liberty."
+        }
+    }
+}
