@@ -16,7 +16,8 @@ fetch('src/data/data.json') //all the 'fetch' part is to use the data.json data
       DataDivTitle.classList.add('TitoloDivDati')
       DataDiv.appendChild(DataDivTitle)
 
-      DataDiv.innerText = (dati.Lombardia)
+      const City = dati.Lombardia[i + 1];
+      DataDivTitle.innerText = City.nome;
     }
   });
 
