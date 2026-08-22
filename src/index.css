@@ -3,10 +3,33 @@
     width: auto;
     border-color: black;
     border-style: solid;
-    border-width: 1px;
+    border-width: 0px;
     margin: 5px;
     padding: 20px;
     visibility: visible;
+    font-family: "times new roman" ;
+    border-radius: 25px;
+    background-color: hwb(49 13% 11%)
+}
+
+.PopUp {
+  visibility: visible;
+  position: relative;
+  background-color: red;
+  flex:1;
+  height: 300px;
+}
+
+#PopUp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.DivDati:hover {
+    box-shadow: 5px 5px 5px hwb(0 30% 70%);
+    transition: 0.7s;
 }
 
 main {
@@ -30,4 +53,16 @@ header {
     background-color: #fdfdfd;
     font-size: 16px;
     margin-bottom:20px ;
+}
+
+.TitoloDivDati {
+  margin: 0px;
+}
+
+.SottoTitoloDivDati {
+  margin: 10px;
+  margin-left: 0px;
+  margin-top: 3px;
+  color: #a8a8a8;
+  
 }
