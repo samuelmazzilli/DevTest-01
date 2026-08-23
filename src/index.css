@@ -12,21 +12,6 @@
     background-color: hwb(49 13% 11%)
 }
 
-.PopUp {
-  visibility: visible;
-  position: relative;
-  background-color: red;
-  flex:1;
-  height: 300px;
-}
-
-#PopUp {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
 .DivDati:hover {
     box-shadow: 5px 5px 5px hwb(0 30% 70%);
     transition: 0.7s;
