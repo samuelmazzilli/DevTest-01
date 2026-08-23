@@ -4,6 +4,8 @@ fetch('src/data/data.json') //all the 'fetch' part is to use the data.json data
   .then(risposta => risposta.json()) 
   .then(dati => {
     console.log(dati); 
+
+    function CreateMainPage() {
     for(let i = 0; i < Object.keys(dati.Lombardia).length; i++) {
       
       const DataDiv = document.createElement('div');
@@ -26,5 +28,10 @@ fetch('src/data/data.json') //all the 'fetch' part is to use the data.json data
 
       DataDivSubTitle.innerText = 'pop.' + City.abitanti
     }
+    }
+
+    CreateMainPage()
+
+    
   });
 
