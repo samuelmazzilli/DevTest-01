@@ -1,8 +1,5 @@
 const Main = document.getElementById("main");
-const main = document.createElement('div')
-main.setAttribute('id', 'Main')
-      main.classList.add('Main')
-      Main.appendChild(main)
+
 fetch('src/data/data.json') //all the 'fetch' part is to use the data.json data
   .then(risposta => risposta.json()) 
   .then(dati => {
@@ -10,6 +7,11 @@ fetch('src/data/data.json') //all the 'fetch' part is to use the data.json data
 
     function CreateMainPage() {
     for(let i = 0; i < Object.keys(dati.Lombardia).length; i++) {
+      const main = document.createElement('div')
+      main.setAttribute('id', 'Main')
+      main.classList.add('Main')
+      Main.appendChild(main)
+
       
       const DataDiv = document.createElement('div');
       DataDiv.setAttribute('id', `DivDati${i + 1}`)
