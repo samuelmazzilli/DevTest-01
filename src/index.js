@@ -37,6 +37,15 @@ fetch('src/data/data.json') //all the 'fetch' part is to use the data.json data
 
     CreateMainPage()
 
+    document.querySelectorAll(".DivDati").forEach(DivDati => {
+      DivDati.addEventListener('click', function PopUp() {
+        const MainConst = document.getElementById("Main");
+        MainConst.remove();
+      })
+    }) 
+      
+    })
+
     
-  });
+  
 
