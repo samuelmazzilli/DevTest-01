@@ -1,5 +1,4 @@
 const main = document.getElementById("main");
-
 fetch('src/data/data.json') //all the 'fetch' part is to use the data.json data
   .then(risposta => risposta.json()) 
   .then(dati => {
