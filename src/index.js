@@ -6,11 +6,14 @@ fetch('src/data/data.json') //all the 'fetch' part is to use the data.json data
     console.log(dati); 
 
     function CreateMainPage() {
-    for(let i = 0; i < Object.keys(dati.Lombardia).length; i++) {
+
       const main = document.createElement('div')
       main.setAttribute('id', 'Main')
       main.classList.add('Main')
       Main.appendChild(main)
+      
+    for(let i = 0; i < Object.keys(dati.Lombardia).length; i++) {
+      
 
       
       const DataDiv = document.createElement('div');
@@ -39,10 +42,14 @@ fetch('src/data/data.json') //all the 'fetch' part is to use the data.json data
 
     document.querySelectorAll(".DivDati").forEach(DivDati => {
       
-      DivDati.addEventListener('click', function PopUp() {
-        const MainConst = document.getElementById("Main");
+      DivDati.addEventListener('click', function PopUp(event) {
+        let id = event.target.id
+        const City = dati.Lombardia[id];
+        
+        const MainConst = document.querySelector(".Main");
         MainConst.remove();
 
+        const NewPopUp = document.createElement('div')
         
       })
     }) 
