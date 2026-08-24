@@ -14,7 +14,7 @@ fetch('src/data/data.json') //all the 'fetch' part is to use the data.json data
 
       
       const DataDiv = document.createElement('div');
-      DataDiv.setAttribute('id', `DivDati${i + 1}`)
+      DataDiv.setAttribute('id', `${i + 1}`)
       DataDiv.classList.add('DivDati')
       main.appendChild(DataDiv) 
 
@@ -38,13 +38,16 @@ fetch('src/data/data.json') //all the 'fetch' part is to use the data.json data
     CreateMainPage()
 
     document.querySelectorAll(".DivDati").forEach(DivDati => {
+      
       DivDati.addEventListener('click', function PopUp() {
         const MainConst = document.getElementById("Main");
         MainConst.remove();
+
+        
       })
     }) 
       
-    })
+  })
 
     
   
