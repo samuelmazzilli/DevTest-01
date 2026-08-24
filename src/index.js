@@ -1,4 +1,8 @@
-const main = document.getElementById("main");
+const Main = document.getElementById("main");
+const main = document.createElement('div')
+main.setAttribute('id', 'Main')
+      main.classList.add('Main')
+      Main.appendChild(main)
 fetch('src/data/data.json') //all the 'fetch' part is to use the data.json data
   .then(risposta => risposta.json()) 
   .then(dati => {
