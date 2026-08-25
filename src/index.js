@@ -66,7 +66,7 @@ fetch('src/data/data.json') //all the 'fetch' part is to use the data.json data
 
         const NewSubTitle = document.createElement('p')
         NewPopUp.appendChild(NewSubTitle)
-        NewSubTitle.innerText = City.abitanti
+        NewSubTitle.innerText = City.abitanti + " ab."
 
         const NewHr = document.createElement('hr')
         NewPopUp.appendChild(NewHr)
