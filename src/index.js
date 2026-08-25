@@ -57,7 +57,10 @@ fetch('src/data/data.json') //all the 'fetch' part is to use the data.json data
         NewTitle.setAttribute('id', 'NewTitle')
         NewTitle.innerText = City.nome
         NewPopUp.appendChild(NewTitle)
-        
+
+        const NewSubTitle = document.createElement('p')
+        NewPopUp.appendChild(NewSubTitle)
+        NewSubTitle.innerText = City.abitanti
       })
     }) 
       
