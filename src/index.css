@@ -54,5 +54,5 @@ header {
 
 #NewBtn {
   float: right;
-  position: relative;
+  position: sticky;
 }
