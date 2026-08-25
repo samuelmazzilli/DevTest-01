@@ -52,6 +52,12 @@ fetch('src/data/data.json') //all the 'fetch' part is to use the data.json data
         const NewPopUp = document.createElement('div')
         NewPopUp.setAttribute('id', 'NewDiv')
         Main.appendChild(NewPopUp)
+
+        const NewBtn = document.createElement('input')
+        NewBtn.setAttribute('type', 'button')
+        NewBtn.setAttribute('id', 'NewBtn')
+        NewBtn.setAttribute('value', 'X')
+        NewPopUp.appendChild(NewBtn)
         
         const NewTitle = document.createElement('h1')
         NewTitle.setAttribute('id', 'NewTitle')
@@ -69,11 +75,7 @@ fetch('src/data/data.json') //all the 'fetch' part is to use the data.json data
         NewPopUp.appendChild(NewParagraph)
         NewParagraph.innerText = City.descrizione
 
-        const NewBtn = document.createElement('input')
-        NewBtn.setAttribute('type', 'button')
-        NewBtn.setAttribute('id', 'NewBtn')
-        NewBtn.setAttribute('value', 'X')
-        NewPopUp.appendChild(NewBtn)
+        
         
       
       })
