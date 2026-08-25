@@ -75,7 +75,10 @@ fetch('src/data/data.json') //all the 'fetch' part is to use the data.json data
         NewPopUp.appendChild(NewParagraph)
         NewParagraph.innerText = City.descrizione
 
-        
+        NewTitle.addEventListener('click', function close() {
+          NewPopUp.remove()
+          CreateMainPage()
+        })
         
       
       })
