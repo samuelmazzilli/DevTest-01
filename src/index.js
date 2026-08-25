@@ -51,6 +51,7 @@ fetch('src/data/data.json') //all the 'fetch' part is to use the data.json data
 
         const NewPopUp = document.createElement('div')
         NewPopUp.setAttribute('id', 'NewDiv')
+        Main.appendChild(NewPopUp)
 
         
       })
