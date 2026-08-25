@@ -44,7 +44,7 @@ fetch('src/data/data.json') //all the 'fetch' part is to use the data.json data
       
       DivDati.addEventListener('click', function PopUp(event) {
         let id = event.target.id
-        const City = dati.Lombardia[id];
+        let City = dati.Lombardia[id];
         
         const MainConst = document.querySelector(".Main");
         MainConst.remove();
@@ -52,7 +52,11 @@ fetch('src/data/data.json') //all the 'fetch' part is to use the data.json data
         const NewPopUp = document.createElement('div')
         NewPopUp.setAttribute('id', 'NewDiv')
         Main.appendChild(NewPopUp)
-
+        
+        const NewTitle = document.createElement('h1')
+        NewTitle.setAttribute('id', 'NewTitle')
+        NewTitle.innerText = City.nome
+        NewPopUp.appendChild(NewTitle)
         
       })
     }) 
