@@ -43,7 +43,7 @@ fetch('src/data/data.json') //all the 'fetch' part is to use the data.json data
     document.querySelectorAll(".DivDati").forEach(DivDati => {
       
       DivDati.addEventListener('click', function PopUp(event) {
-        let id = event.target.id
+        let id = event.currentTarget.id
         let City = dati.Lombardia[id];
         
         const MainConst = document.querySelector(".Main");
@@ -71,6 +71,7 @@ fetch('src/data/data.json') //all the 'fetch' part is to use the data.json data
 
         const NewBtn = document.createElement('input')
         NewBtn.setAttribute('type', 'button')
+        NewBtn.setAttribute('value', 'X')
         NewPopUp.appendChild(NewBtn)
         
       
