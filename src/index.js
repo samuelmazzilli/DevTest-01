@@ -61,6 +61,13 @@ fetch('src/data/data.json') //all the 'fetch' part is to use the data.json data
         const NewSubTitle = document.createElement('p')
         NewPopUp.appendChild(NewSubTitle)
         NewSubTitle.innerText = City.abitanti
+
+        const NewHr = document.createElement('hr')
+        NewPopUp.appendChild(NewHr)
+
+        const NewParagraph = document.createElement('p')
+        NewPopUp.appendChild(NewParagraph)
+        NewParagraph.innerText = City.descrizione
       })
     }) 
       
