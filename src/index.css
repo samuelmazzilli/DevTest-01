@@ -59,3 +59,7 @@ header {
   border-radius: 10px;
   border-style: solid;
 }
+
+#Search {
+  display: flex;
+}
