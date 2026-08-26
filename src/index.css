@@ -56,10 +56,19 @@ header {
   float: right;
   position: sticky;
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 25px;
   border-style: solid;
 }
 
 #Search {
   display: flex;
+}
+
+#SearchBtn {
+  border-style: solid;
+  border-radius: 75px;
+  background-color: #00000000;
+  height: 50px;
+  width: 60px;
+  margin-left: 20px;
 }
