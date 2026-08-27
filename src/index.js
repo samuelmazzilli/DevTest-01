@@ -79,4 +79,6 @@ fetch('src/data/data.json')
 
     
     CreateMainPage();
+
+    document.getElementById("SearchBtn")
   });
