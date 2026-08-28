@@ -80,5 +80,7 @@ fetch('src/data/data.json')
     
     CreateMainPage();
 
-    document.getElementById("SearchBtn")
+    document.getElementById("SearchBtn").addEventListener("click", function search() {
+      
+    })
   });
