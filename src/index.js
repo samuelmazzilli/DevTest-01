@@ -81,6 +81,8 @@ fetch('src/data/data.json')
     CreateMainPage();
 
     document.getElementById("SearchBtn").addEventListener("click", function search() {
-      
+      for(let i2 = 0; i < Object.keys(dati.Lombardia).length; i++) {
+        
+      }
     })
   });
