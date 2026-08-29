@@ -84,10 +84,10 @@ fetch('src/data/data.json')
       for(let i2 = 0; i2 < Object.keys(dati.Lombardia).length; i2++) {
         let query = document.getElementById("searchbar").value
         if(document.getElementById(`Titolo${i2+1}`).innerText.includes(query)) {
-          document.getElementById(`Titolo${i2+1}`).style.visibility = "visible"
+          document.getElementById(`${i2+1}`).style.visibility = "visible"
           
       } else {
-          document.getElementById(`Titolo${i2+1}`).style.visibility = "hidden"
+          document.getElementById(`${i2+1}`).style.visibility = "hidden"
       }
       }
     })
