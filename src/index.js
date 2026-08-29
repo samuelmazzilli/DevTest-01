@@ -83,7 +83,12 @@ fetch('src/data/data.json')
     document.getElementById("SearchBtn").addEventListener("click", function search() {
       for(let i2 = 0; i < Object.keys(dati.Lombardia).length; i++) {
         let query = document.getElementById("searchbar").value
-        if(document.getElementById(`Titolo${i2+1}`).)
+        if(document.getElementById(`Titolo${i2+1}`).includes(query)) {
+          document.getElementById(`Titolo${i2+1}`).style.visibility = "visible"
+          
+      } else {
+          document.getElementById(`Titolo${i2+1}`).style.visibility = "hidden"
+      }
       }
     })
   });
