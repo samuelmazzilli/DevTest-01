@@ -82,7 +82,7 @@ fetch('src/data/data.json')
 
     document.getElementById("SearchBtn").addEventListener("click", function search() {
       for(let i2 = 0; i < Object.keys(dati.Lombardia).length; i++) {
-        
+        let query = document.getElementById("searchbar").value
       }
     })
   });
