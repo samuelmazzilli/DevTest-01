@@ -15,6 +15,7 @@
 .DivDati:hover {
     box-shadow: 5px 5px 5px hwb(0 30% 70%);
     transition: 0.7s;
+    cursor: pointer;
 }
 
 main {
