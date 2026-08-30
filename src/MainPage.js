@@ -1,5 +1,5 @@
 
-export function CreateMainPage() {
+export function CreateMainPage(dati) {
       const main = document.createElement('div');
       main.setAttribute('id', 'Main');
       main.classList.add('Main');
@@ -65,7 +65,7 @@ export function CreateMainPage() {
         
           NewBtn.addEventListener('click', function close() {
             NewPopUp.remove();
-            CreateMainPage();
+            CreateMainPage(dati);
           });
         });
       });
