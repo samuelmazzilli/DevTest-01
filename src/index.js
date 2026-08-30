@@ -11,7 +11,7 @@ fetch('src/data/data.json')
       for(let i2 = 0; i2 < Object.keys(dati.Lombardia).length; i2++) {
         let query = document.getElementById("SearchBar").value
 
-        if(document.getElementById(`Titolo${i2+1}`).innerText.includes(query)) {
+        if(document.getElementById(`Titolo${i2+1}`).innerText.toLocaleLowerCase().includes(query)) {
           document.getElementById(`${i2+1}`).style.display = "block"
           
       } else {
