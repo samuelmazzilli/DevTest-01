@@ -1,5 +1,6 @@
 
 export function CreateMainPage(dati) {
+      const Main = document.getElementById("main");
       const main = document.createElement('div');
       main.setAttribute('id', 'Main');
       main.classList.add('Main');
