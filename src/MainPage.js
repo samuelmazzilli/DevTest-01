@@ -1,4 +1,5 @@
-function CreateMainPage() {
+
+export function CreateMainPage() {
       const main = document.createElement('div');
       main.setAttribute('id', 'Main');
       main.classList.add('Main');
@@ -70,4 +71,3 @@ function CreateMainPage() {
       });
 }
 
-export {CreateMainPage}
