@@ -34,6 +34,9 @@ export function CreateMainPage(dati) {
           let id = event.currentTarget.id;
           let City = dati.Lombardia[id];
           
+          Main.style["justify-content"] = "center"
+          Main.style.display = "flex"
+
           const MainConst = document.querySelector(".Main");
           MainConst.remove();
 
@@ -63,10 +66,12 @@ export function CreateMainPage(dati) {
           NewPopUp.appendChild(NewParagraph);
           NewParagraph.innerText = City.descrizione;
 
+          
         
           NewBtn.addEventListener('click', function close() {
             NewPopUp.remove();
             CreateMainPage(dati);
+              Main.style.display = "block"
           });
         });
       });
