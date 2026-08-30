@@ -10,8 +10,9 @@ fetch('src/data/data.json')
       let Removed = 0
       for(let i2 = 0; i2 < Object.keys(dati.Lombardia).length; i2++) {
         let query = document.getElementById("SearchBar").value
+        let r = query.toLowerCase()
 
-        if(document.getElementById(`Titolo${i2+1}`).innerText.toLocaleLowerCase().includes(query)) {
+        if(document.getElementById(`Titolo${i2+1}`).innerText.toLowerCase().includes(r)) {
           document.getElementById(`${i2+1}`).style.display = "block"
           
       } else {
