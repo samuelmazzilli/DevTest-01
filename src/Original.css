@@ -1,0 +1,94 @@
+.DivDati {
+    flex: 1;
+    width: auto;
+    border-color: black;
+    border-style: solid;
+    border-width: 0px;
+    margin: 5px;
+    padding: 20px;
+    visibility: visible;
+    font-family: "times new roman" ;
+    border-radius: 25px;
+    background-color: hwb(49 13% 11%)
+}
+
+.DivDati:hover {
+    box-shadow: 5px 5px 5px hwb(0 30% 70%);
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+#SearchBar {
+    width: 100%;
+    padding: 10px 16px;
+    border-radius: 25px;
+    border: 4px solid #575757; 
+    background-color: #fdfdfd;
+    font-size: 16px;
+    margin-bottom:20px ;
+}
+
+.TitoloDivDati {
+  margin: 0px;
+}
+
+.SottoTitoloDivDati {
+  margin: 10px;
+  margin-left: 0px;
+  margin-top: 3px;
+  color: #686868;
+  
+}
+
+#NewBtn {
+  float: right;
+  position: sticky;
+  padding: 10px;
+  border-radius: 75px;
+  border-style: solid;
+  color: hwb(0 4% 34%);
+  border-width: 4px;
+  border-color: hwb(0 4% 34%);;
+  background-color: #00000000;
+  width: 50px;
+  height: 50px;
+}
+
+#NewBtn:hover {
+  cursor: pointer;
+}
+
+#Search {
+  display: flex;
+}
+
+#SearchBtn {
+  border-style: solid;
+  border-color: #575757;
+  border-radius: 75px;
+  background-color: #00000000;
+  height: 50px;
+  width: 50px;
+  margin-left: 20px;
+  border-width: 4px;
+}
+
+#SearchBtn:hover {
+  cursor: pointer;
+}
+
+#NewDiv {
+  width: 550px;
+  background-color: #ffea75;
+  padding: 10px;
+  border-radius: 25px;
+}
