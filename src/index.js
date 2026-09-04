@@ -13,7 +13,7 @@ fetch('src/data/data.json')
         let r = query.toLowerCase()
 
         if(document.getElementById(`Titolo${i2+1}`).innerText.toLowerCase().includes(r)) {
-          document.getElementById(`${i2+1}`).style.display = "block"
+          document.getElementById(`${i2+1}`).style.display = "flex"
           
       } else {
           document.getElementById(`${i2+1}`).style.display = "none"
